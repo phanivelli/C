@@ -13,9 +13,12 @@ void main(){
     printf("enter address of the student:");
     scanf("%s",address);
 
+    // here we are entering the number of the subjects
+
     printf("enter the no of subjects=");
     scanf("%d",&noofsubjects);
      
+    //  for loop is retreving the subjects untill the condition satisfies 
      for(int i=0;i<noofsubjects;i++){
          printf("enter the subject name=");
          scanf("%s",subjname);
