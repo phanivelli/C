@@ -5,7 +5,6 @@ int main(){
     printf("enter the number to check whether the number is even or odd=");
     scanf(" %d ", &num);
 
-    // conditional operator
     (num%2 ==0 ) ? printf("%d your number is even",num) : printf("%d your number is odd",num);
     return 0;
 }
